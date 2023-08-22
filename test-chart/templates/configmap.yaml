@@ -4,6 +4,6 @@ metadata:
   name: {{ .Release.Name }}-configmap
   namespace: {{ .Values.namespace }}
 data:
-  pierwszyklucz-lubiacy-values: "{{ .Values.ala }}"
-  drugiklucz-lubiacy-releases: "{{ .Release.Name }}"
-  trzeci-lubi-charty: "{{ .Chart.Name }}"
+  key01-basedon-values: "{{ .Values.ala }}"
+  key02-basedon-releases: "{{ .Release.Name }}"
+  key03-basedon--charts: "{{ .Chart.Name }}"
