@@ -8,7 +8,7 @@ testerPodName: tester
 namespace: test123
 
 label: testlabel
-ala: makota
+ala: alamakota
 servicePort : 3333
 PROTO : TCP
 targetPort : 8080
