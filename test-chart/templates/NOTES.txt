@@ -1,8 +1,5 @@
-
-
 OTO prosty plik Notes.txt 
 {{- if .Values.replicaCount }}
- wdrozyles sobie deploy w formie RELASU {{ .Release.Name }} z CZARTU {{ .Chart.Name }} ktory ma {{ .Values.replicaCount }}
-
+ wdrozyles sobie deploy w formie RELASU {{ .Release.Name }} z CZARTU {{ .Chart.Name }} ktory ma {{ .Values.replicaCount }} replik 
 {{- end }}
 
