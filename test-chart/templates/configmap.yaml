@@ -4,6 +4,6 @@ metadata:
   name: {{ .Release.Name }}-configmap
   namespace: {{ .Values.namespace }}
 data:
-  key01-basedon-values: "{{ .Values.ala }}"
-  key02-basedon-releases: "{{ .Release.Name }}"
-  key03-basedon--charts: "{{ .Chart.Name }}"
+  key01-based-on-values: "{{ .Values.ala }}"
+  key02-based-on-releases: "{{ .Release.Name }}"
+  key03-based-on-charts: "{{ .Chart.Name }}"
