@@ -5,7 +5,7 @@
 
 replicaCount: 2
 testerPodName: tester
-namespace: test123
+namespace: dev
 
 label: testlabel
 ala: alamakota
