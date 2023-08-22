@@ -9,7 +9,7 @@ namespace: test123
 
 label: testlabel
 ala: alamakota
-servicePort : 3333
+servicePort : 2222
 PROTO : TCP
 targetPort : 8080
 
