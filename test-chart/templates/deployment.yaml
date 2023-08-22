@@ -6,7 +6,7 @@ metadata:
   labels:
     app: {{ .Values.label }}
   name: {{ .Release.Name }}-deploy
-  namespace: namespace55
+  namespace: {{ .Values.namespace }}
 spec:
   progressDeadlineSeconds: 600
   {{- if not .Values.replicaCount }}
